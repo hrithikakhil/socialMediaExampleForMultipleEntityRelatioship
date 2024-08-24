@@ -1,9 +1,15 @@
 package com.social.media.models;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
-public class Profile {
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class SocialProfile {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
